@@ -13,7 +13,7 @@ const Home = () => {
             <div style={{width:"100%",height:"300px",display:"flex",}}>
                <div style={{width:"40%",height:"100%",position:"relative",left:"30%",
             paddingTop:"50px"}}>
-                      <div style={{fontSize:"40px",fontWeight:"600",}}>GITHUB,Team Notion,WandaB</div>
+                      <div style={{fontSize:"40px",fontWeight:"600",}}>GITHUB,Team Notion,WandB</div>
                       <div style={{display:"flex",justifyContent:'center',padding:"50px"}}>
                         <div>
                         <a style={{fontSize:"20px"}} href='https://github.com/jcjang1'>github</a> /
@@ -23,7 +23,7 @@ const Home = () => {
                             ' >Team Notion/</a>
                         </div>
                         <div>
-                            <a style={{fontSize:"20px"}} href='https://wandb.ai/jcjang'> 완다비</a>
+                            <a style={{fontSize:"20px"}} href='https://wandb.ai/jcjang'> WandB</a>
                         </div>
                       </div>
                       <div>
