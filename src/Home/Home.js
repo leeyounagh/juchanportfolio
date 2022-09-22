@@ -20,9 +20,11 @@ const Home = () => {
                         </div>
                         <div>
                             <a style={{fontSize:"20px"}} href=' https://www.notion.so/3376ddf293ec4fb2937e815dbb182a0d?v=018439c015ab45cc9499ff0db73e5062
-                            ' >Team Notion</a>
+                            ' >Team Notion/</a>
                         </div>
-                       
+                        <div>
+                            <a style={{fontSize:"20px"}} href='https://wandb.ai/jcjang'> 완다비</a>
+                        </div>
                       </div>
                       <div>
                         <span>
@@ -34,6 +36,7 @@ const Home = () => {
                            </span>
                            
                         </div>
+                      
                     
                </div>
             </div>
