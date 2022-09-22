@@ -113,7 +113,7 @@ const Home = () => {
                             
                             <div style={{zIndex:"100",fontWeight:"900",fontSize:"25px",position:"relative",
                              top:"-55%",color:"white"}}>{item.title} </div>
-                                 <div style={{zIndex:"100",fontWeight:"900",fontSize:"25px",position:"relative",
+                                 <div style={{fontWeight:"900",fontSize:"25px",position:"relative",
                              top:"-50%",color:"white"}}>{item.date} </div>
                                      <div style={{zIndex:"100",fontWeight:"900",fontSize:"25px",position:"relative",
                              top:"-45%",color:"white"}}>Click!</div>
@@ -155,9 +155,9 @@ const Home = () => {
             
             </div> 
    
-             {
+             {/* {
                 aboutme()
-             }
+             } */}
              {
                 project()
              }
