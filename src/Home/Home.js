@@ -129,7 +129,7 @@ const Home = () => {
             AI Engineer
             </div>
             <div className="fade_2"style={{position:"absolute",top:"55%",left:"45%", color:'white',fontSize:"50px",fontWeight:"900"}}>
-                Juchan Kim
+                Juchan Jang
             </div>
              
             
