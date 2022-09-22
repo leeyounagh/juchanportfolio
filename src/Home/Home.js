@@ -3,9 +3,11 @@ import React, { useState } from 'react';
 import { FcCellPhone } from 'react-icons/fc';
 
 
+
 const Home = () => {
 
-     const [card,setCard] = useState([1,2,3,4])
+     const [card,setCard] = useState([{img:"image/무신사.png",title:"musinsa project",date:"6/20 ~ 7/3",
+    link:""},{img:"image/차.png",title:"Car Damage Detection",date:"6/23 ~ 7/11 ",link:"https://github.com/jcjang1/CODEnter_mmdet"},{img:"image/해커톤.png",title:"Kaggle - HuBMAP + HPA - Hacking the Human Body",date:"8/16 ~ 9/22",link:"https://github.com/jcjang1/kaggle_dataset_maker"}])
     const github = () =>{
         return(
             <div style={{width:"100%",height:"300px",display:"flex",}}>
@@ -99,14 +101,27 @@ const Home = () => {
             <div style={{width:"100%",height:"800px",paddingTop:"50px"}}>
                <div style={{fontSize:"40px",marginBottom:"30px",fontWeight:"900"}}>Project</div>
                <div className='container' style={{display:"flex",width:"80%",height:"70%",position:"relative",
-             left:"10%"}}>
+             left:"15%"}}>
                  {
                     card.map((item)=>{
                         return(
-                            <div style={{border:"1px solid black",width:"300px",height:"500px",margin:"10px",
+                            <div className='pro_hover' style={{width:"300px",height:"500px",margin:"30px",
                             borderRadius:"50px"}}>
-
+                           <a href={item.link} style={{textDecoration:"none"}}>      <div >
+                                <img  src={item.img} width="300px" height="500px" style={{borderRadius:"50px"}}></img>
+                                </div>
+                            
+                            <div style={{zIndex:"100",fontWeight:"900",fontSize:"25px",position:"relative",
+                             top:"-55%",color:"white"}}>{item.title} </div>
+                                 <div style={{zIndex:"100",fontWeight:"900",fontSize:"25px",position:"relative",
+                             top:"-50%",color:"white"}}>{item.date} </div>
+                                     <div style={{zIndex:"100",fontWeight:"900",fontSize:"25px",position:"relative",
+                             top:"-45%",color:"white"}}>Click!</div>
+                             
+                             </a>
+                          
                             </div>
+                            
                         )
                        
                     })
